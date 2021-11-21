@@ -188,6 +188,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/hello/overlay/no-rro
 
 PRODUCT_PACKAGES += \
+    CustomPixelLauncherOverlay \
     DocumentsUIOverlay \
     NetworkStackOverlay
 
