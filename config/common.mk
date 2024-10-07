@@ -130,6 +130,11 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
 # Fonts
 include vendor/hello/config/fonts.mk
 
+# Moto Apps - by Deivid21
+include vendor/motorola/MotoSignatureApp/motosignatureapp.mk
+include vendor/motorola/TimeWeather/timeweather.mk
+include vendor/motorola/MotoLiveWallpaper3/motolivewallpaper3.mk
+
 # Openssh
 PRODUCT_PACKAGES += \
     scp \
