@@ -96,9 +96,6 @@ PRODUCT_PACKAGES += \
     build-manifest
 
 # HelloOS packages
-PRODUCT_PACKAGES += \
-    Updater
-
 PRODUCT_COPY_FILES += \
     vendor/hello/prebuilt/common/etc/init/init.hello-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.hello-updater.rc
 
