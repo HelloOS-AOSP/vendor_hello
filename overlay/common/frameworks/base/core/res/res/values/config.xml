@@ -515,7 +515,17 @@
     <string name="config_rawContactsLocalAccountType" translatable="false">com.android.contacts</string>
 
     <!-- Name of the font family to use in the default lockscreen clock -->
-    <string name="config_clockFontFamily" translatable="false" />
+    <string name="config_clockFontFamily" translatable="rookery-clock" />
+
+    <!-- Name of a font family to use for body text. -->
+    <string name="config_bodyFontFamily">rookery-text</string>
+    <string name="config_bodyFontFamilyMedium">rookery-text-medium</string>
+    <string name="config_bodyFontFamilyBold">rookery-text-bold</string>
+
+    <!-- Name of a font family to use for headlines. If empty, falls back to platform default -->
+    <string name="config_headlineFontFamily">rookery</string>
+    <string name="config_headlineFontFamilyMedium">rookery-medium</string>
+    <string name="config_headlineFontFeatureSettings">ss03</string>
 
     <!-- The type of the light sensor to be used by the display framework for things like
          auto-brightness. If unset, then it just gets the default sensor of type TYPE_LIGHT. -->
