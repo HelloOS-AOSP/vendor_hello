@@ -10,5 +10,13 @@ HELLO_DISPLAY_VERSION := 2.0
 
 HELLO_VERSION := v$(HELLO_DISPLAY_VERSION)-$(HELLO_BUILD)-$(HELLO_PLATFORM_VERSION)-$(HELLO_BUILD_DATE)
 
+# HelloOS Platform Version
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.hello.build.date=$(BUILD_DATE) \
+    ro.hello.device=$(HELLO_BUILD) \
+    ro.hello.fingerprint=$(ROM_FINGERPRINT) \
+    ro.hello.version=$(HELLO_VERSION) \
+    ro.modversion=$(HELLO_VERSION)
+
 # Signing
 -include vendor/hello-priv/keys/keys.mk
